@@ -270,8 +270,8 @@ img {
   text-align: center;
 }
 
-.contact-item:not(:last-child) {
-  margin-right: 10px;
+.contact-list .contact-email {
+  margin-right: 25px;
 }
 
 .contact-text {
