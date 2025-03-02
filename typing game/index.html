@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <title>タイピングゲーム</title>
+ <meta charset="UTF-8">
+ <meta name="description" content="【JavaScript応用編】簡易的なタイピングゲームです。">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="count" class="count">60</p>
+  <div id="wrap" class="wrap">
+    <span id="typed" class="typed"></span><span id="untyped"></span>
+  </div>
+  <span id="typeCounter">現在のタイプ数:0</span><br>
+  <button id="start">スタート</button> 
+  <script type="text/javascript" src="main.js">
+     let typeCount = 0; // タイプ数をカウントする変数
+        document.addEventListener('keydown', function() {
+            typeCount++; // タイプ数を増やす
+            document.getElementById('typeCounter').textContent = typeCount; // HTMLに反映
+        });
+  </script>
+</body>
+</html>
