@@ -1,0 +1,19 @@
+.nav .menu {
+   display: flex;
+ margin: 40px;
+}
+p {
+    display: flex;
+}
+
+.child {
+    display: flex;
+}
+
+.child-1 {
+    display: flex;
+}
+
+#footer {
+    text-align: center;
+}
