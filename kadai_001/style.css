@@ -97,6 +97,22 @@ body {
 
 /* --------スマホ版　レスポンシブ対応---------- */
 @media screen and (max-width: 767px) {
+body {
+    width: 100%;
+}
 
-    
+/* About */
+.main .main-1 .images {
+   margin-left: 0px
+}
+
+.main .main-1 .sub {
+    margin-left: 40px;
+}
+
+/* Works */
+.job .job-1 .images-1 {
+    margin-left: 0px;
+}
+
 }
