@@ -116,8 +116,14 @@ body {
 /* ヘッダー */
 .nav {
     display: flex;
+    width: 90%;
     margin: 20px;
  justify-content:space-between;
+}
+
+/* メイン画像 */
+.main .main-images {
+    width: 100%;
 }
 
 /* About */
