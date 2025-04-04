@@ -7,7 +7,11 @@ body {
 /* header */
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 980px;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .h1 {
@@ -116,16 +120,26 @@ body {
 
 /* header */
 header {
-    width: 90%;
+    width: auto;
+    display: flex;
 }
 
 ul {
-    font-size: 34px;
     display: flex;
     list-style-type: none;
     padding: 0;
 }
 
+.h1 {
+    width: 30%;
+    font-size: 0.5rem;
+    padding: 45px 0px;
+}
+
+a {
+    width: 30%;
+    font-size:  0.5rem;
+}
 
 
 /*main images */
@@ -149,7 +163,7 @@ ul {
 .About-images {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: auto;
 }
 
 h3 {
@@ -164,6 +178,36 @@ p {
 .Works .Works-1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.Works .Works-1 .Works-2 {
+    width: auto;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.Works .Works-1 .Works-2 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-3 {
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.Works .Works-1 .Works-3 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-4 {
+    width: auto;
+    text-align: center;
+}
+
+.Works .Works-1 .Works-4 img {
+    width: 100%;
 }
     
 }
