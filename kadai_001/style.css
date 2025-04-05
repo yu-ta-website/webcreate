@@ -1,5 +1,5 @@
 body {
-    font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    font-family:  "Noto Sans JP", sans-serif;
     background-color: #ffffff;
     color: black;
     width: 100%;
@@ -22,6 +22,10 @@ body {
     list-style-type: none;
     font-weight: bold;
     font-size: 34px;
+}
+
+.nav .nav-logo {
+   margin: 35px;
 }
 
 .nav .nav-logo a {
@@ -53,10 +57,12 @@ body {
 
 .main .main-1 {
     display: flex;
+    justify-content: center;
 }
 
 .main .main-1 .images {
     margin-left: auto;
+    margin-right: 20px;
    
 }
 
@@ -82,12 +88,12 @@ body {
 
 .job .job-1 {
     display: flex;
+    justify-content: center;
 }
 
 .job .job-1 .images-1 {
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
     margin-right: 40px;
     width: 300px;
     height: 200px;
