@@ -4,6 +4,7 @@ body {
     color: black;
     width: 100%;
     height: auto;
+    margin: 0px;
 }
 
 /* ヘッダー */
@@ -21,7 +22,7 @@ body {
     display: flex;
     list-style-type: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
     padding: 0px;
 }
 
@@ -134,12 +135,24 @@ body {
 .nav {
     display: flex;
     width: 90%;
-    margin: 20px;
+    margin: 0px;
  justify-content:space-between;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+.nav .nav-logo {
+    margin: 0px;
+    margin-top: 25px;
 }
 
 .nav .nav-logo a {
     margin-left: 0px;
+}
+
+.nav .menu a {
+    margin-left: 10px;
+    font-size: 16px;
 }
 
 
