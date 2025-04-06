@@ -1,221 +1,212 @@
 body {
-    font-family:  "Noto Sans JP", sans-serif;
+    color: #000000;
     background-color: #ffffff;
-    color: black;
+    font-family:  "Noto Sans JP", sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     width: 100%;
-    height: auto;
-    margin: 0px;
+    max-width: 980px;
+    margin: 0 auto;
 }
 
-/* ヘッダー */
-
-.nav {
-   display: flex;
- justify-content:space-between;
- width: 980px;
- height: 115px;
- margin-left: auto;
- margin-right: auto;
+.h1 {
+    font-size: 34px;
+    border: 2px solid ;
+    padding: 10px;
 }
 
-.nav .menu {
+ul {
+    font-size: 34px;
     display: flex;
     list-style-type: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
     font-weight: bold;
-    font-size: 24px;
-    padding: 0px;
+    margin: 20px;
 }
 
-.nav .nav-logo {
-   margin: 35px;
-}
-
-.nav .nav-logo a {
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
-   margin-left: 100px;
-    font-size: 20px;
-    padding: 0 20px;
-}
-
-.nav .menu a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
-}
-
-/* メイン画像 */
-.main .main-images {
+/*main images */
+.main-images {
     width: 100%;
 }
 
-/* About */
-.main .about {
+/*About*/
+#About {
     text-align: center;
     font-size: 34px;
-    margin: 60px;
 }
 
-.main .main-1 {
+.About .About-1 {
     display: flex;
     justify-content: center;
+
 }
 
-.main .main-1 .images {
-    margin-left: auto;
-    margin-right: 20px;
-   
+.About-images {
+    margin-right: 60px;
 }
 
-.main .main-1 .sub {
-    margin-right: auto;
-    margin-left: 60px;
-}
-
-.main .main-1 .sub .name {
+h3 {
     font-size: 24px;
 }
 
-.main .main-1 .sub .sub-1 {
-    margin-left: 20px;
+p {
+    font-size: 18px;
 }
 
-/* Works */
-.works {
+/*Works*/
+#Works {
     text-align: center;
     font-size: 34px;
-    margin: 60px;
 }
 
-.job .job-1 {
+.Works .Works-1 {
     display: flex;
     justify-content: center;
+    width: 752px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.job .job-1 .images-1 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 40px;
-    width: 300px;
-    height: 200px;
-}
-
-.job .job-1 .images-2 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 40px;
-    width: 300px;
-    height: 200px;
-}
-
-.job .job-1 .images-3 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 200px;
-}
-
-/* footer */
-.footer {
+.Works .Works-1 .Works-2 {
+    width: 30%;
     text-align: center;
-    font-size: 18px;
-    margin-top: 200px;
+    margin-right: 20px;
+}
+
+.Works .Works-1 .Works-2 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-3 {
+    width: 30%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.Works .Works-1 .Works-3 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-4 {
+    width: 30%;
+    text-align: center;
+}
+
+.Works .Works-1 .Works-4 img {
+    width: 100%;
+}
+
+/*footee*/
+footer {
+    text-align: center;
 }
 
 /* --------スマホ版　レスポンシブ対応---------- */
 @media screen and (max-width: 767px) {
 body {
-    width: 100%;
-    display: flex;
+   width: 100%;
+   display: flex;
    flex-direction: column;
-}
+   margin: 0px;
+    }
 
-/* ヘッダー */
-.nav {
+/* header */
+header {
+    width: auto;
     display: flex;
-    width: 90%;
-    margin: 0px;
- justify-content:space-between;
-   margin-left: 0px;
-   margin-right: 0px;
 }
 
-.nav .nav-logo {
-    margin: 0px;
-    margin-top: 25px;
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
 }
 
-.nav .nav-logo a {
-    margin-left: 0px;
+.h1 {
+    font-size: 1.5rem;
 }
 
-.nav .menu a {
-    margin-left: 10px;
-    font-size: 16px;
+a {
+    font-size: 1rem;
 }
 
 
-/* メイン画像 */
-.main .main-images {
+/*main images */
+.main-images {
     width: 100%;
 }
 
-/* About */
-.main .main-1 {
+/*About*/
+.About .About-1 {
     display: flex;
     flex-direction: column;
 }
 
-.main .main-1 .images {
-   margin-left: auto;
-   margin-right: auto;
-   width: 200px;
-   height: 200px;
-}
-
-.main .main-1 .sub {
+#About {
+    text-align: center;
+    font-size: 34px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.main .main-1 .sub .sub-1 {
-   margin-left: 0px;
+.About-images {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
-/* Works */
-.job .job-1 {
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/*Works*/
+.Works .Works-1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.Works .Works-1 .Works-2 {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+.Works .Works-1 .Works-2 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-3 {
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.Works .Works-1 .Works-3 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-4 {
+    width: auto;
     text-align: center;
 }
 
-.job .job-1 .images-1 {
-    margin-left: auto;
-   margin-right: auto;
-    width: 300px;
-    height: 200px;
-    margin-bottom: 180px;
+.Works .Works-1 .Works-4 img {
+    width: 100%;
 }
-
-.job .job-1 .images-2 {
-    width: 300px;
-    height: 200px;
-    margin-bottom: 180px;
-    margin-left: auto;
-   margin-right: auto;
-}
-
-.job .job-1 .images-3 {
-    width: 300px;
-    height: 200px;
-    margin-bottom: 180px;
-    margin-left: auto;
-   margin-right: auto;
-}
-
-/* footer */
-.footer {
-    margin-top: 50px;
-}
-
+    
 }
