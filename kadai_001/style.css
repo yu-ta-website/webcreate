@@ -1,0 +1,221 @@
+body {
+    font-family:  "Noto Sans JP", sans-serif;
+    background-color: #ffffff;
+    color: black;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+/* ヘッダー */
+
+.nav {
+   display: flex;
+ justify-content:space-between;
+ width: 980px;
+ height: 115px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.nav .menu {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0px;
+}
+
+.nav .nav-logo {
+   margin: 35px;
+}
+
+.nav .nav-logo a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+   margin-left: 100px;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.nav .menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* メイン画像 */
+.main .main-images {
+    width: 100%;
+}
+
+/* About */
+.main .about {
+    text-align: center;
+    font-size: 34px;
+    margin: 60px;
+}
+
+.main .main-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main .main-1 .images {
+    margin-left: auto;
+    margin-right: 20px;
+   
+}
+
+.main .main-1 .sub {
+    margin-right: auto;
+    margin-left: 60px;
+}
+
+.main .main-1 .sub .name {
+    font-size: 24px;
+}
+
+.main .main-1 .sub .sub-1 {
+    margin-left: 20px;
+}
+
+/* Works */
+.works {
+    text-align: center;
+    font-size: 34px;
+    margin: 60px;
+}
+
+.job .job-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.job .job-1 .images-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    width: 300px;
+    height: 200px;
+}
+
+.job .job-1 .images-2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    width: 300px;
+    height: 200px;
+}
+
+.job .job-1 .images-3 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 200px;
+}
+
+/* --------スマホ版　レスポンシブ対応---------- */
+@media screen and (max-width: 767px) {
+body {
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+}
+
+/* ヘッダー */
+.nav {
+    display: flex;
+    width: 90%;
+    margin: 0px;
+ justify-content:space-between;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+.nav .nav-logo {
+    margin: 0px;
+    margin-top: 25px;
+}
+
+.nav .nav-logo a {
+    margin-left: 0px;
+}
+
+.nav .menu a {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+/* メイン画像 */
+.main .main-images {
+    width: 100%;
+}
+
+/* About */
+.main .main-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .main-1 .images {
+   margin-left: auto;
+   margin-right: auto;
+   width: 200px;
+   height: 200px;
+}
+
+.main .main-1 .sub {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .main-1 .sub .sub-1 {
+   margin-left: 0px;
+}
+/* Works */
+.job .job-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.job .job-1 .images-1 {
+    margin-left: auto;
+   margin-right: auto;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 180px;
+}
+
+.job .job-1 .images-2 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 180px;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+.job .job-1 .images-3 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 180px;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+/* footer */
+.footer {
+    margin-top: 50px;
+}
+
+}
