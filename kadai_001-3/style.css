@@ -162,7 +162,8 @@ header {
   
   .Works .Works-1 .Works-2 {
       width: calc(100% - 40px);
-      margin: 20px;
+      margin: 0px;
+      width: 100%;
   }
   
   .Works .Works-1 .Works-2 img {
