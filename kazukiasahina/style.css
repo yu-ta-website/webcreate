@@ -1,0 +1,219 @@
+body {
+    color: #000000;
+    background-color: #ffffff;
+    font-family:  "Noto Sans JP", sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 34px;
+    border: 2px solid ;
+    padding: 10px;
+}
+
+ul {
+    font-size: 34px;
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/*main images */
+.main-images {
+    width: 100%;
+}
+
+/*About*/
+#About {
+    text-align: center;
+    font-size: 34px;
+}
+
+.About .About-1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.About-images {
+    margin-right: 60px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/*Works*/
+#Works {
+    text-align: center;
+    font-size: 34px;
+}
+
+.Works .Works-1 {
+    display: flex;
+    justify-content: center;
+    width: 752px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Works .Works-1 .Works-2 {
+    width: 30%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.Works .Works-1 .Works-2 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-3 {
+    width: 30%;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.Works .Works-1 .Works-3 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-4 {
+    width: 30%;
+    text-align: center;
+}
+
+.Works .Works-1 .Works-4 img {
+    width: 100%;
+}
+
+/*footee*/
+footer {
+    text-align: center;
+}
+
+/* --------スマホ版　レスポンシブ対応---------- */
+@media screen and (max-width: 767px) {
+body {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: 0px;
+    }
+
+/* header */
+header {
+    width: auto;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.h1 {
+    font-size: 1.5rem;
+    padding: 3px;
+}
+
+a {
+    font-size: 1rem;
+}
+
+
+/*main images */
+.main-images {
+    width: 100%;
+}
+
+/*About*/
+.About .About-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#About {
+    text-align: center;
+    font-size: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.About-images {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/*Works*/
+.Works .Works-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.Works .Works-1 .Works-2 {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+.Works .Works-1 .Works-2 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-3 {
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.Works .Works-1 .Works-3 img {
+    width: 100%;
+}
+
+.Works .Works-1 .Works-4 {
+    width: auto;
+    text-align: center;
+}
+
+.Works .Works-1 .Works-4 img {
+    width: 100%;
+}
+    
+}
