@@ -503,16 +503,19 @@ footer {
   .pickitem-1 {
   width: 100%;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .pickitem-2 {
   width: 100%;
   text-align: center;
+   margin-bottom: 0px;
 }
 
 .pickitem-3 {
   width: 100%;
   text-align: center;
+   margin-bottom: 0px;
 }
 
 .pickitem-4 {
@@ -530,6 +533,9 @@ footer {
   text-align: center;
 }
 
+.pickitem-price {
+  margin-bottom: 20px;
+}
 
 .button-more {
   width: 80%;
