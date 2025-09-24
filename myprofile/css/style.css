@@ -98,20 +98,11 @@ img {
   padding: 20px 40px;
 }
 
-.header-logo {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.2;
-  margin-right: 20px;
-  letter-spacing: .05em;
+.header-logo img {
+  width: 70%;
 }
 
-.header-logo a {
- color: #22c713;
-  border: 2px solid;
-  padding: 5px;
-  font-size: 28px;
-}
+
 
 .gnav-list {
   display: flex;
@@ -128,7 +119,7 @@ img {
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
-  padding: 5px 0;
+  padding: 5px 10px;
   transition: .3s;
   letter-spacing: .05em;
   color: #33dc24;
@@ -442,20 +433,17 @@ img {
     padding: 15px;
   }
 
-  .header-logo {
-    font-size: 10px;
-    margin-right: 10px;
-  }
+  .header-logo img {
+  width: 40%;
+}
 
-   .header-logo a {
-    font-size: 16px;
-   }
   .gnav-item:not(:last-child) {
     margin-right: 10px;
   }
 
   .gnav-item a {
     font-size: 10px;
+    padding: 0 3px;
   }
 
   .gnav-item a:after {
