@@ -95,7 +95,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 10px 40px;
 }
 
 .header-logo img {
@@ -430,7 +430,7 @@ img {
 
   /* ヘッダー */
   .header .container {
-    padding: 15px;
+    padding: 10px;
   }
 
   .header-logo img {
