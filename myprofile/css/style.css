@@ -47,7 +47,7 @@ img {
 }
 
 .section {
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .section:nth-child(even) {
