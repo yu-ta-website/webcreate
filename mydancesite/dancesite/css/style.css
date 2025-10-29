@@ -17,7 +17,6 @@ img {
   height: auto;
   vertical-align: bottom;
   border-style: none;
-  margin-left: 30px;
 }
 
 
@@ -239,6 +238,10 @@ video {
 
 .contact-list .contact-email {
   margin-right: 25px;
+}
+
+.contact-list .contact-facebook {
+  margin-left: 25px;
 }
 
 .contact-text {
