@@ -3,6 +3,7 @@ body {
   font-size: 15px;
   letter-spacing: .05em;
   color: #333;
+  background-color: rgb(250, 216, 137);
 }
 
 a {
@@ -16,6 +17,7 @@ img {
   height: auto;
   vertical-align: bottom;
   border-style: none;
+  margin-left: 30px;
 }
 
 
@@ -50,9 +52,6 @@ img {
   padding: 40px 0;
 }
 
-.section:nth-of-type(odd) {
-  background-color: #ffffff;
-}
 
 .container {
   max-width: 1340px;
@@ -87,7 +86,7 @@ img {
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #fff;
+ background-color: rgb(253, 159, 36);
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
@@ -107,7 +106,7 @@ img {
 }
 
 .header-logo a {
-  color: #333;
+  color: #8e3908;
   border: 2px solid;
   padding: 5px;
 }
@@ -142,7 +141,7 @@ img {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: #d4410b;
 }
 
 .gnav-item a:hover:after {
@@ -169,6 +168,15 @@ img {
   width: 100%;
   height: auto;
   margin-bottom: 40px;
+}
+
+/*--------------------------------
+Results
+---------------------------------*/
+.profile-results p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-left: 50px;
 }
 
 /*--------------------------------
@@ -416,6 +424,13 @@ video {
     line-height: 1.7;
   }
 
+/* results */
+  .profile-results p {
+  font-size: 10px;
+  line-height: 1.8;
+  margin-left: 20px;
+}
+
   /* movies */
 
   .movies-list {
@@ -442,8 +457,9 @@ video {
   }
 
   .profile-body p {
-    font-size: 14px;
-    line-height: 1.7;
+  font-size: 10px;
+  line-height: 1.8;
+  margin-left: 20px;
   }
 
   .profile-body p:not(:last-child) {
