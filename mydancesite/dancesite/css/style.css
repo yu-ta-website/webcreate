@@ -89,11 +89,15 @@ img {
   box-shadow: 0 5px 10px -6px rgba(0,0,0,.1);
 }
 
+.header-logo img {
+  width: 70%;
+}
+
 .header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 10px 40px;
 }
 
 .header-logo {
@@ -102,12 +106,6 @@ img {
   line-height: 1.2;
   margin-right: 20px;
   letter-spacing: .05em;
-}
-
-.header-logo a {
-  color: #8e3908;
-  border: 2px solid;
-  padding: 5px;
 }
 
 .gnav-list {
@@ -122,10 +120,10 @@ img {
 
 .gnav-item a {
   position: relative;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
   display: inline-block;
-  padding: 5px 0;
+  padding: 5px 10px;
   transition: .3s;
   letter-spacing: .05em;
   color: #333;
@@ -227,6 +225,11 @@ video {
   margin-right: 20px;
   margin-bottom: 20px;
   border: 2px solid;
+}
+
+.movies-font {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /*--------------------------------
@@ -398,6 +401,7 @@ video {
 
   .gnav-item a {
     font-size: 10px;
+    padding: 5px 4px;
   }
 
   .gnav-item a:after {
@@ -429,7 +433,7 @@ video {
 
 /* results */
   .profile-results p {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.8;
   margin-left: 20px;
 }
@@ -449,6 +453,11 @@ video {
    margin-bottom: 10px;
   }
   
+  .movies-font {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
   /* About */
   .profile {
     display: block;
@@ -460,7 +469,7 @@ video {
   }
 
   .profile-body p {
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.8;
   margin-left: 20px;
   }
