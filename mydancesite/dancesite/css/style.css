@@ -387,7 +387,7 @@ video {
 
   /* ヘッダー */
   .header .container {
-    padding: 8px;
+    padding: 11px;
   }
 
   .header-logo {
@@ -410,7 +410,7 @@ video {
 
   
 .header-logo img {
-  width: 60%;
+  width: 55%;
 }
 
   /*  メインビジュアル */
