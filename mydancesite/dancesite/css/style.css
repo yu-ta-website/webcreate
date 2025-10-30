@@ -387,7 +387,7 @@ video {
 
   /* ヘッダー */
   .header .container {
-    padding: 15px;
+    padding: 10px;
   }
 
   .header-logo {
@@ -407,6 +407,11 @@ video {
   .gnav-item a:after {
     display: none;
   }
+
+  
+.header-logo img {
+  width: 60%;
+}
 
   /*  メインビジュアル */
   .mv {
