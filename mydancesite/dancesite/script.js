@@ -22,8 +22,11 @@ $(function () {
   autoplay: true,
   dots: true,
   infinite: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 2000,
   arrows: false,
+  fade: true,
+  pauseOnHover: false,
+  speed: 1500,
 });
 
 });
