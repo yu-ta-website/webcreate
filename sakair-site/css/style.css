@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: .05em;
   color: #333;
   background-color: rgb(249, 239, 246)
@@ -75,7 +75,6 @@ img {
 }
 
 .lead {
-  font-size: 16px;
   line-height: 1.8;
   margin-bottom: 30px;
 }
@@ -167,7 +166,7 @@ h3 {
 
 
 .profile-body p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
 }
 
@@ -180,7 +179,7 @@ h3 {
 career
 ---------------------------------*/
 .profile-career p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
   margin-left: 50px;
 }
@@ -195,7 +194,7 @@ skill
 .movies-font {
   text-align: center;
   margin-bottom: 30px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /*--------------------------------
